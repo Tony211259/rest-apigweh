@@ -2941,7 +2941,7 @@ router.get('/live/trax', async (req, res, next) => {
 })
 
 
-router.get('/search/cnn', async (req, res, next) => {
+router.get('/download/mf', async (req, res, next) => {
           var apikey = req.query.apikey
         var q = req.query.query
         if(!apikey) return res.sendFile(__path + '/docs/403.html')
